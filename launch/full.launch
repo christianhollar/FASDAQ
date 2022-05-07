@@ -1,0 +1,4 @@
+<launch>
+<include file="$(find rplidar_ros)/launch/view_rplidar.launch"/>
+<node pkg="fasdaq" type="node_GPS.py" name="GPS"/>
+</launch>

@@ -1,0 +1,421 @@
+{
+  "keys": {},
+  "groups": {
+    "pluginmanager": {
+      "keys": {
+        "running-plugins": {
+          "type": "repr",
+          "repr": "{u'rqt_plot/Plot': [2, 1]}"
+        }
+      },
+      "groups": {
+        "plugin__rqt_moveit__Moveit__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "_splitter": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000100000002000000c8000000640100000009010000000200')",
+                  "pretty-print": "         d     "
+                },
+                "splitter_horizontal": {
+                  "type": "repr(QByteArray.hex)",
+                  "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff0000000100000002000000640000006e0100000009010000000200')",
+                  "pretty-print": "       d n     "
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_robot_steering__RobotSteering__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "topic": {
+                  "type": "repr",
+                  "repr": "u'/cmd_vel'"
+                },
+                "vx_min": {
+                  "type": "repr",
+                  "repr": "u'-1'"
+                },
+                "vw_min": {
+                  "type": "repr",
+                  "repr": "u'-3'"
+                },
+                "vw_max": {
+                  "type": "repr",
+                  "repr": "u'3'"
+                },
+                "vx_max": {
+                  "type": "repr",
+                  "repr": "u'1'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_pose_view__PoseView__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "view_matrix": {
+                  "type": "repr",
+                  "repr": "u'[[0.7986354231834412, 0.2354087084531784, -0.5538641810417175, 0.0], [-0.5998867154121399, 0.2377641350030899, -0.7639399170875549, 0.0], [-0.04814901575446129, 0.9423642754554749, 0.3311053216457367, 0.0], [0.0, -3.0, -17.5, 1.0]]'"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'Plot'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "u'/arduino_rand/data'"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[0.0, 2.0]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[41.80364513397217, 42.80364513397217]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_plot__Plot__2": {
+          "keys": {},
+          "groups": {
+            "dock_widget__DataPlotWidget": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u'MatPlot (2)'"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "autoscroll": {
+                  "type": "repr",
+                  "repr": "True"
+                },
+                "plot_type": {
+                  "type": "repr",
+                  "repr": "1"
+                },
+                "topics": {
+                  "type": "repr",
+                  "repr": "u''"
+                },
+                "y_limits": {
+                  "type": "repr",
+                  "repr": "[0.0, 1.0]"
+                },
+                "x_limits": {
+                  "type": "repr",
+                  "repr": "[0.0, 1.0]"
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_publisher__Publisher__1": {
+          "keys": {},
+          "groups": {
+            "plugin": {
+              "keys": {
+                "publishers": {
+                  "type": "repr",
+                  "repr": "u\"[{'type_name': 'geometry_msgs/PoseStamped', 'topic_name': '/move_base_simple/goal', 'enabled': False, 'rate': 1.0, 'expressions': {}, 'publisher_id': 0, 'counter': 42}]\""
+                }
+              },
+              "groups": {}
+            }
+          }
+        },
+        "plugin__rqt_ez_publisher__EzPublisher__1": {
+          "keys": {},
+          "groups": {
+            "dock_widget__EzPublisherPluginUi": {
+              "keys": {
+                "dockable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                },
+                "parent": {
+                  "type": "repr",
+                  "repr": "None"
+                },
+                "dock_widget_title": {
+                  "type": "repr",
+                  "repr": "u''"
+                }
+              },
+              "groups": {}
+            },
+            "plugin": {
+              "keys": {
+                "texts": {
+                  "type": "repr",
+                  "repr": "[u'/fishgantry/simfish_command/header/frame_id', u'/fishgantry/simfish_command/tail_amp', u'/fishgantry/simfish_command/tail_freq', u'/fishgantry/simfish_command/tail_bias', u'/fishgantry/simfish_command/height_goal', u'/fishgantry/simfish_command/tilt_goal', u'/fishgantry/simfish_command/tail_enable']"
+                },
+                "publish_interval": {
+                  "type": "repr",
+                  "repr": "u'100'"
+                },
+                "configurable": {
+                  "type": "repr",
+                  "repr": "u'true'"
+                }
+              },
+              "groups": {
+                "gantry": {
+                  "keys": {},
+                  "groups": {
+                    "commandpose": {
+                      "keys": {},
+                      "groups": {
+                        "pose": {
+                          "keys": {},
+                          "groups": {
+                            "position": {
+                              "keys": {
+                                "x_is_repeat": {
+                                  "type": "repr",
+                                  "repr": "u'true'"
+                                },
+                                "x_range": {
+                                  "type": "repr",
+                                  "repr": "(-10.0, 10.0)"
+                                },
+                                "y_range": {
+                                  "type": "repr",
+                                  "repr": "(-10.0, 10.0)"
+                                },
+                                "y_is_repeat": {
+                                  "type": "repr",
+                                  "repr": "u'true'"
+                                }
+                              },
+                              "groups": {}
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "fishgantry": {
+                  "keys": {},
+                  "groups": {
+                    "simfish_command": {
+                      "keys": {
+                        "tail_amp_is_repeat": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "tail_freq_is_repeat": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "tail_enable_range": {
+                          "type": "repr",
+                          "repr": "(0, 0)"
+                        },
+                        "tail_amp_range": {
+                          "type": "repr",
+                          "repr": "(-1.0, 1.0)"
+                        },
+                        "height_goal_is_repeat": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "tilt_goal_range": {
+                          "type": "repr",
+                          "repr": "(-1.0, 1.0)"
+                        },
+                        "height_goal_range": {
+                          "type": "repr",
+                          "repr": "(-6.0, 5.0)"
+                        },
+                        "tail_enable_is_repeat": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "tail_bias_range": {
+                          "type": "repr",
+                          "repr": "(-1.0, 1.0)"
+                        },
+                        "tilt_goal_is_repeat": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        },
+                        "tail_freq_range": {
+                          "type": "repr",
+                          "repr": "(-1.0, 10.0)"
+                        },
+                        "tail_bias_is_repeat": {
+                          "type": "repr",
+                          "repr": "u'true'"
+                        }
+                      },
+                      "groups": {
+                        "header": {
+                          "keys": {
+                            "frame_id_is_repeat": {
+                              "type": "repr",
+                              "repr": "u'true'"
+                            },
+                            "frame_id_range": {
+                              "type": "repr",
+                              "repr": "(0, 0)"
+                            }
+                          },
+                          "groups": {}
+                        }
+                      }
+                    },
+                    "commandpose": {
+                      "keys": {},
+                      "groups": {
+                        "header": {
+                          "keys": {
+                            "frame_id_is_repeat": {
+                              "type": "repr",
+                              "repr": "u'true'"
+                            },
+                            "frame_id_range": {
+                              "type": "repr",
+                              "repr": "(0, 0)"
+                            }
+                          },
+                          "groups": {}
+                        },
+                        "pose": {
+                          "keys": {
+                            "orientation_is_repeat": {
+                              "type": "repr",
+                              "repr": "u'true'"
+                            },
+                            "orientation_range": {
+                              "type": "repr",
+                              "repr": "(-3.14, 3.14)"
+                            }
+                          },
+                          "groups": {
+                            "position": {
+                              "keys": {
+                                "x_range": {
+                                  "type": "repr",
+                                  "repr": "(-1.0, 1.0)"
+                                },
+                                "z_is_repeat": {
+                                  "type": "repr",
+                                  "repr": "u'true'"
+                                },
+                                "y_is_repeat": {
+                                  "type": "repr",
+                                  "repr": "u'true'"
+                                },
+                                "x_is_repeat": {
+                                  "type": "repr",
+                                  "repr": "u'true'"
+                                },
+                                "y_range": {
+                                  "type": "repr",
+                                  "repr": "(-1.0, 1.0)"
+                                },
+                                "z_range": {
+                                  "type": "repr",
+                                  "repr": "(-1.0, 1.0)"
+                                }
+                              },
+                              "groups": {}
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "mainwindow": {
+      "keys": {
+        "geometry": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('01d9d0cb000200000000015a0000001f000005270000026a0000015a0000003b000005270000026a00000000000000000556')",
+          "pretty-print": "     Z   ' j Z ; ' j    V"
+        },
+        "state": {
+          "type": "repr(QByteArray.hex)",
+          "repr(QByteArray.hex)": "QtCore.QByteArray('000000ff00000000fd0000000100000003000003ce0000021afc0100000002fb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0031005f005f00440061007400610050006c006f007400570069006400670065007401000000000000023b0000017800fffffffb00000042007200710074005f0070006c006f0074005f005f0050006c006f0074005f005f0032005f005f00440061007400610050006c006f007400570069006400670065007401000002410000018d0000017800ffffff000003ce0000000000000004000000040000000800000008fc00000001000000030000000100000036004d0069006e0069006d0069007a006500640044006f0063006b00570069006400670065007400730054006f006f006c0062006100720000000000ffffffff0000000000000000')",
+          "pretty-print": "                 Brqt_plot__Plot__1__DataPlotWidget          Brqt_plot__Plot__2__DataPlotWidget                            6MinimizedDockWidgetsToolbar        "
+        }
+      },
+      "groups": {
+        "toolbar_areas": {
+          "keys": {
+            "MinimizedDockWidgetsToolbar": {
+              "type": "repr",
+              "repr": "8"
+            }
+          },
+          "groups": {}
+        }
+      }
+    }
+  }
+}
