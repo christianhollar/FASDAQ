@@ -1,0 +1,6 @@
+<launch>
+<node pkg="fasdaq" type="node_GPS.py" name="GPS"/>
+<node pkg="fasdaq" type="node_AOS.py" name="AOS"/>
+<node name = "rqt_dashboard" pkg = "rqt_gui" type = "rqt_gui" respawn = "false" output = "screen" args = "--perspective-file $(find fasdaq)/rqt_perspective/test.perspective"/>
+<node name = "Bag" pkg="rosbag" type="record" args="-a -o $(find fasdaq)/bags/" />
+</launch>

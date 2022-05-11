@@ -95,11 +95,7 @@ void loop(void)
   Serial.println(",");
 
   //GPS
-  while (Serial1.available()) {
-    Serial.write(Serial1.read());
-  }
-
-  Serial.println("");
-
-  delay(100);
+//  while (Serial1.available()) {
+//    Serial.write(Serial1.read());
+//  }
 }
